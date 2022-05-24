@@ -1,0 +1,24 @@
+{
+  "name": "html5-beautiful",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "complie:sass": "dart-sass sass/main.scss css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heikaimu/html5-beautiful.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heikaimu/html5-beautiful/issues"
+  },
+  "homepage": "https://github.com/heikaimu/html5-beautiful#readme",
+  "devDependencies": {
+    "dart-sass": "^1.25.0"
+  },
+  "dependencies": {},
+  "description": ""
+}

@@ -1,0 +1,33 @@
+.header {
+  height: 95vh;
+  /* 知识点1，内置颜色选择器 */
+  background-image: linear-gradient(to right bottom,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)), url(../images/banner.jpeg);
+  background-size: cover;
+  background-position: top center;
+  /* 知识点2，clip裁剪区域 */
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  position: relative;
+
+  &__logo-box {
+    position: absolute;
+    left: 4rem;
+    top: 4rem;
+  }
+
+  &__logo {
+    font-size: 4rem;
+    line-height: 1;
+    color: $color-white;
+    text-transform: uppercase;
+  }
+
+  &__text-box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    text-align: center;
+  }
+}
